@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["joshhuckabee@gmail.com"]
   spec.summary       = %q{Wrap AWS DynamoDB local tool}
   spec.description   = %q{Wrap AWS DynamoDB local tool}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jhuckabee/dynamodb-local"
   spec.license       = "MIT"
   spec.extensions    = ["Rakefile"]
 
