@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'dynamodb/local'
+
+Dynamodb::Local::Server.start(ARGV)
