@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Dynamodb::Local::VERSION
   spec.authors       = ["Josh Huckabee"]
   spec.email         = ["joshhuckabee@gmail.com"]
-  spec.summary       = %q{Wrap AWS DynamoDB local tool}
-  spec.description   = %q{Wrap AWS DynamoDB local tool}
+  spec.summary       = %q{Wraps installation and usage of the AWS DynamoDB local server tool}
   spec.homepage      = "https://github.com/jhuckabee/dynamodb-local"
   spec.license       = "MIT"
   spec.extensions    = ["Rakefile"]

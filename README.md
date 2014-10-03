@@ -2,6 +2,9 @@
 
 This is a simple helper gem that automaticall installs the [DynamoDB local tool](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.DynamoDBLocal.html) and provides a simple ruby wrapper binar that allows you start and stop the local DynamoDB server from the command line.
 
+*IMPORTANT:* DynamoDB Local supports the Java Runtime Engine (JRE)
+version 6.x or newer; it will not run on older JRE versions.
+
 ## Installation
 
 Add this line to your application's Gemfile:
