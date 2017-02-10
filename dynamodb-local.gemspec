@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Wraps installation and usage of the AWS DynamoDB local server tool}
   spec.homepage      = "https://github.com/jhuckabee/dynamodb-local"
   spec.license       = "MIT"
-  spec.extensions    = ["Rakefile"]
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
